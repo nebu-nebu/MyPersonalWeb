@@ -130,19 +130,19 @@
                                                     <td><label for="fname "> Your Name (required)</label></td>
                                                 </tr>
                                                 <tr>
-                                                    <td><input aria-required="true" value size="70" type="text " id="name " name="your-name "></td>
+                                                    <td><input pattern="[A-Za-z]{30}" title="Enter Your Name" value size="70" type="text " id="name " name="your-name " required></td>
                                                 </tr>
                                                 <tr>
-                                                    <td><label for="fname "> Your Email (required)</label></td>
+                                                    <td><label for="email"> Your Email (required)</label></td>
                                                 </tr>
                                                 <tr>
-                                                    <td><input aria-required="true" value size="70" type="text " id="email " name="yyour-email "></td>
+                                                    <td><input type="email" value size="70" id="email " name="your-email " required></td>
                                                 </tr>
                                                 <tr>
-                                                    <td><label for="fname "> Subject</label></td>
+                                                    <td><label for="subject "> Subject</label></td>
                                                 </tr>
                                                 <tr>
-                                                    <td><input aria-required="true" value size="70" type="text " id="subject " name="your-subject "></td>
+                                                    <td><input pattern="[A-Za-z]{40}" title="Enter Your Subject" value size="70" type="text " id="subject " name="your-subject " required></td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -150,15 +150,14 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
-
                                                     <td>
-                                                        <span><textarea aria-required="true" name="your-text" id="textarea" cols="70" rows="10" ></textarea></span>
+                                                        <span><textarea pattern="[A-Za-z]{200}" title="Enter Your Message"  name="your-text" id="textarea" cols="70" rows="10" required ></textarea></span>
                                                     </td>
                                                 </tr>
 
                                                 <tr>
                                                     <form method="POST " action="mailto: neba.23andua@gmail.com " enctype="UTF-8 ">
-                                                        <td><span><input type="submit" value="submit "  bgcolor="rad "></span></td>
+                                                        <td><span><input type="submit" value="submit" ></span></td>
                                                     </form>
 
                                                 </tr>
@@ -169,10 +168,6 @@
                                 </table>
                             </td>
                             <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-
-
-                        </tr>
-                        <tr>
                             <td valign="top">
                                 <table align="ceneter">
                                     <tr>
